@@ -1,7 +1,7 @@
 # fud_payload-generator
 A fully undetectable payload generator in python. working in 2021.
 
-![alt text](https://i.ibb.co/28g6NPP/virustotal-result.png)
+![alt text](https://i.ibb.co/DMs9xp0/virustotal-result.png)
 
 ## How to install
 
