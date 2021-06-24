@@ -12,7 +12,7 @@ try to convert the .ps1 payload to exe with a program like ps2exe.
 
 ## About the script
 
-this script basically takes the payloads from the payloads folders and change
-certain like the lhost and lport to make things easier
+This script basically takes the payloads from the payloads folders and changes
+certain things like the lhost and lport to make things easier.
 
 
