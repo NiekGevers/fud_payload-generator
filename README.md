@@ -6,7 +6,7 @@ A fully undetectable payload generator in python. working in 2021.
 ## How to install
 
 git clone https://github.com/NiekGevers/fud_payload-generator.git  
-cd fud_payload-generator
+cd fud_payload-generator  
 python fud_payload-generator.py
 
 ## How to use
