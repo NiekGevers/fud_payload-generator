@@ -11,7 +11,7 @@ python fud_payload-generator.py
 
 ## How to use
 When running you need to specify the listening host and port after this you can also
-try to convert the .ps1 payload to exe with a program like ps2exe.
+try to convert the .ps1 payload to exe with a program like ps2exe (if converting to exe there is a higher change your antivirus will detect it!).
 
 Now you can set up a listener like netcat to recieve your connection.
 
