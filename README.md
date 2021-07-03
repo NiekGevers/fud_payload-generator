@@ -18,5 +18,5 @@ Now you can set up a listener like netcat to recieve your connection.
 ## About the script
 This script basically takes the payloads from the payloads folders and changes
 certain things like the lhost and lport to make things easier.
-
+You can now also add a custom fake msg box.
 
